@@ -30,10 +30,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tim-mossholder-244857" translatesAutoresizingMaskIntoConstraints="NO" id="9DW-pv-1gC">
+                                <rect key="frame" x="0.0" y="408" width="375" height="259"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="259" id="HdQ-lt-RaX"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="9DW-pv-1gC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="170-M6-dbS"/>
+                            <constraint firstItem="9DW-pv-1gC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4Up-ll-YMv"/>
                             <constraint firstItem="qVB-uk-l9q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="5FQ-eO-ajR"/>
+                            <constraint firstItem="9DW-pv-1gC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8Io-Hh-icw"/>
                             <constraint firstItem="bL0-Pd-25Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ThZ-0B-QVz"/>
                             <constraint firstItem="qVB-uk-l9q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nzc-TM-QAr"/>
                             <constraint firstItem="bL0-Pd-25Y" firstAttribute="top" secondItem="qVB-uk-l9q" secondAttribute="bottom" constant="25" id="x6U-NA-sHm"/>
@@ -43,6 +52,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tim-mossholder-244857" width="7200" height="4800"/>
+    </resources>
 </document>
